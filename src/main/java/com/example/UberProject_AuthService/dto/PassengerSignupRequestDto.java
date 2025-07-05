@@ -2,7 +2,7 @@ package com.example.UberProject_AuthService.dto;
 
 import lombok.*;
 
-@Getter
+@Getter    //  because dto object will come in the form of json our library serialization and deserialization will convert into java object
 @Setter
 @Builder
 @NoArgsConstructor
